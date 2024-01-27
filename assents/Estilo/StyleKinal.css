@@ -1,53 +1,100 @@
 body {
-    font-family:Arial, Helvetica, sans-serif;
-    height: 100vh;
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(252,176,69,1) 0%, rgba(122,54,89,1) 43%, rgba(26,26,46,1) 100%);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/assents/resouce/kinalremaje.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
-.Titulo{
-    font-size: 40px;
-    margin-left: 20px;
+header {
+    padding: 10px;
 }
 
-nav{
-    color: white;
-    height: 100px;
-    display: flex;
-    background: rgb(26,26,46);
-    background: linear-gradient(90deg, rgba(26,26,46,1) 51%, rgba(131,149,194,1) 100%, rgba(252,176,69,1) 100%, rgba(131,58,180,1) 100%);
-    border-radius: 10px;
-    justify-content: space-between;
+nav {
+    color: #fff;
+    padding: 10px;
 }
 
-a {
-    margin-right: 10px;
-    padding: 10px 20px;
-    border: 2px solid #fefefe;
-    text-transform: uppercase;
-    color: #fefefe;
-    font-weight: 600;
-    font-size: 10px;
-  }
-
-.navegacion{
-    display: flex;
-    align-items: flex-end;
+nav a {
+    color: #fff;
+    font-weight:bold;
     text-decoration: none;
+    margin: 0 10px;
+}
+section {
+    padding: 20px;
 }
 
-.navegacion a{
-    text-decoration: none;
-}
-
-.encabezado{
+footer {
+    background-color:rgb(0, 40, 85);
+    color: #fff;
     text-align: center;
-    display: flex;
-
+    padding: 10px;
+    background-color:  #212a31;
+    position: relative;
+    bottom: 0;
+    margin: 0;
 }
 
-.Titulo{
-    align-items: center;
-    font-size: 20px;
-    color: white;
+.inicio{
+    height: 550px;
+}
+
+.Plataforma{
+    padding-top: 90px;
+    text-align: center;
+    color:white;
+    background-color: rgb(0, 40, 85);
+    opacity: 100;
+    height: 1500px;
+}
+
+.Plataforma h2{
+    font-size: 50px;
+    font-family: wfont_128120_135e371b3c8a4cc784e9ad57ce259413,wf_135e371b3c8a4cc784e9ad57c,orig_gloss_and_bloom;
+}
+
+.table img{
+    margin-left: 50px;
+    opacity: 100;
+}
+
+.table p{
+    margin-left: 30px;
+    height: 100px;
+    width: 400px;
+}
+
+.kinal{
+    height: 600px;
+    margin-top: 50px;
+    background-color: white;
+    opacity: 100;
+}
+
+.kinal img{
+    border-radius: 8px;
+    margin-left: 50px;
+    height: 400px;
+    width: 400px;
+}
+
+.Portada{
+    background-color: rgb(0, 40, 85);
+    margin:10px;
+    border-radius: 10px 10px 120px;
+}
+
+.imagenSpecial img{
+    display: flex;
+}
+
+.tabla2{
+    padding-left: 19%;
+}
+
+.table3{
+    padding-left: 40%;
 }
